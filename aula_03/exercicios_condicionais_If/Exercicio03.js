@@ -7,11 +7,11 @@ let nomeDoador = leia.question("\nDigite o Nome do doador: ");
 
 let idade = leia.questionInt("\nDigite a Idade do doador: ");
 
-let doador = leia.question("\nPrimeira doacao de sangue? ") === false; 
+let doador = leia.keyInYNStrict("\nPrimeira doacao de sangue? ") ; 
 
 if(idade >= 18 && idade < 60) {
     console.log(`\n${nomeDoador} esta apto(a) para doar sangue!`);
-} else if (idade >= 60 && idade <= 69 && doador) {
+} else if (idade >= 60 && idade <= 69 && !doador) {
     console.log(`\n${nomeDoador} esta apto(a) para doar sangue!`);
 } else {
     console.log(`\n${nomeDoador} não esta apto(a) para doar sangue!`);
