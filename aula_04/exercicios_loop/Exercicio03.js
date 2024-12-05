@@ -1,8 +1,11 @@
 /*
-03 - Escreva um algoritmo, que leia 2 números inteiros via teclado, onde o primeiro 
-número deve ser menor do que o segundo número. Caso contrário, deve ser exibida uma 
-mensagem na tela informando que o intervalo é inválido e sair do programa. 
-No intervalo informado, mostre na tela todos os números que são múltiplos de 3 e 5.
+03 - Escreva um algoritmo, que leia a idade de 
+várias pessoas (números inteiros), via teclado e 
+mostre na tela o total de pessoas cuja idade seja 
+menor que 21 anos e o total de pessoas cuja idade, 
+seja maior que 50 anos. A leitura dos dados deve 
+ser finalizada ao digitar uma idade negativa. Veja 
+o exemplo abaixo:
 */
 const leia = require("readline-sync");
 
