@@ -9,7 +9,7 @@ let numero = 0, somaPositivo = 0;
 do {
     numero = leia.questionInt("Digite uma numero: ");
     if (numero > 0){
-            somaPositivo += numero
+        somaPositivo += numero
     } 
     
 } while (numero != 0) 
