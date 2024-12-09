@@ -25,13 +25,7 @@ for (let indiceLinha = 0; indiceLinha < matrizInteiros.length; indiceLinha++){
         matrizInteiros [indiceLinha][indiceColuna] = leia.questionInt("Digite um numero: ")  
         
         //preenchendo os valores da Diagonal principal
-        if(indiceLinha === 0 && indiceColuna === 0) {
-            matrizDiagonalPrincipal[indiceLinha]  = matrizInteiros [indiceLinha][indiceColuna]            
-        }
-        if(indiceLinha === 1 && indiceColuna === 1) {
-            matrizDiagonalPrincipal[indiceLinha]  = matrizInteiros [indiceLinha][indiceColuna]            
-        }
-        if(indiceLinha === 2 && indiceColuna === 2) {
+        if(indiceLinha === indiceColuna ) {
             matrizDiagonalPrincipal[indiceLinha]  = matrizInteiros [indiceLinha][indiceColuna]            
         }
 
